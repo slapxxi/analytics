@@ -6,9 +6,9 @@ export const Hero = () => {
   return (
     <>
       <div className="-z-1 col-span-full row-[1/3] h-[calc(100%+15px)] bg-pinky-600 clip-angle" />
-      <div className="-z-1 col-span-full row-[1/3] bg-blue-950 clip-angle" />
+      <div className="hero -z-1 col-span-full row-[1/3] bg-blue-950 clip-angle" />
 
-      <div className="hero relative col-[wide] row-[1/3] grid grid-cols-subgrid grid-rows-subgrid text-base text-slatey-400">
+      <div className="relative col-[wide] row-[1/3] grid grid-cols-subgrid grid-rows-subgrid text-base text-slatey-400">
         <div
           className="col-[main] row-2 grid grid-rows-[min-content_min-content_120px] gap-6 max-w-340
           md:col-[main/-1] md:grid-cols-[minmax(0,42fr)_minmax(0,58fr)] md:grid-rows-[auto_120px]"

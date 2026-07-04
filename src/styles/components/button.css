@@ -1,6 +1,6 @@
 @layer components {
   .btn {
-    @apply rounded-full border border-transparent bg-pinky-600 p-2.5 text-white;
+    @apply rounded-full border border-transparent bg-pinky-600 hover:opacity-80 p-2.5 text-white;
   }
 
   .btn-outline {
