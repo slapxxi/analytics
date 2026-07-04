@@ -10,7 +10,7 @@ export const Hero = () => {
 
       <div className="relative col-[wide] row-[1/3] grid grid-cols-subgrid grid-rows-subgrid text-base text-slatey-400">
         <div
-          className="col-[main] row-2 grid grid-rows-[min-content_min-content_120px] gap-6 max-w-340
+          className="col-[main] row-2 grid max-w-340 grid-rows-[min-content_min-content_120px] gap-6
           md:col-[main/-1] md:grid-cols-[minmax(0,42fr)_minmax(0,58fr)] md:grid-rows-[auto_120px]"
         >
           <img
@@ -19,7 +19,11 @@ export const Hero = () => {
             className="col-2 row-span-2 hidden md:block"
           />
 
-          <img src={heroImageSm} alt="" className="w-full md:hidden" />
+          <img
+            src={heroImageSm}
+            alt=""
+            className="w-full drop-shadow-lg drop-shadow-black/30 filter md:hidden"
+          />
 
           <div className="grid gap-4 self-center md:row-1 md:grid-cols-2">
             <h2 className="title col-span-full text-fluid-5xl text-white">
