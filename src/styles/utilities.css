@@ -1,3 +1,8 @@
-@utility text-fluid-base {
-  font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
+@utility text-fluid-5xl {
+  font-size: clamp(2rem, 1.591rem + 2.05vw, 3.125rem);
+  line-height: var(--tw-leading, var(--text-5xl--line-height) /* 1 */);
+}
+
+@utility clip-angle {
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 120px), 0 100%);
 }

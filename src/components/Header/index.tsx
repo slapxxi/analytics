@@ -4,7 +4,7 @@ import config from './config'
 
 export const Header = () => {
   return (
-    <header className="col-[wide] grid grid-cols-subgrid bg-blue-950 text-base text-slatey-400 shadow md:min-h-32 md:shadow-none">
+    <header className="z-10 row-1 col-[wide] grid grid-cols-subgrid text-base text-slatey-400 shadow md:min-h-32 md:shadow-none">
       <div className="col-[main] grid grid-cols-[auto_auto] items-center justify-between gap-4.5 py-5 md:grid-cols-[1fr_3fr_1fr]">
         <Logo className="w-32" />
 

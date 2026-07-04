@@ -1,0 +1,12 @@
+@layer components {
+  .hero {
+    @apply relative;
+    background-image:
+      url('~/assets/hero-decor-1.svg'), url('~/assets/hero-decor-1.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-size: 660px, 1438px;
+    background-position:
+      calc(50% - 450px) calc(50% - 200px),
+      calc(50% + 600px) calc(50% + 300px);
+  }
+}
