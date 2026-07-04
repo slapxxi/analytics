@@ -1,5 +1,5 @@
 const config = {
-  nav: ['Home', 'About us', 'Buying', 'Renting', 'Selling', 'Contact us'],
+  nav: ['Products', 'Pricing', 'FAQ', 'Blog', 'Contact'],
 }
 
 export default config
