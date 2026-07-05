@@ -9,9 +9,9 @@ export const Footer = () => {
   return (
     <footer className="col-[wide] grid grid-cols-subgrid bg-blue-950 text-slatey-400">
       <div className="col-[main] flex min-h-40 items-center justify-between gap-8 py-8">
-        <Logo className="w-32 md:w-45" />
+        <Logo className="w-32" />
 
-        <nav className="hidden md:block">
+        <nav className="hidden text-sm md:block">
           <ul className="flex items-center gap-4">
             {config.nav.map((item) => (
               <li key={item}>
@@ -21,7 +21,7 @@ export const Footer = () => {
           </ul>
         </nav>
 
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-10">
           <FacebookIcon />
           <InstagramIcon />
           <TwitterIcon />
