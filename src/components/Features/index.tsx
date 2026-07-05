@@ -20,9 +20,9 @@ export const Features = () => {
             className="grid grid-cols-[auto_1fr] gap-x-7 gap-y-2 md:row-span-3 md:grid-cols-1 md:grid-rows-subgrid 
             md:place-items-center md:gap-x-0 md:gap-y-0 md:text-center"
           >
-            <item.Icon className="row-span-2 size-15 text-pinky-600 md:row-auto md:mb-7" />
+            <item.Icon className="row-span-2 size-15 text-xpink-600 md:row-auto md:mb-7" />
             <h3 className="title text-base md:mb-4">{item.title}</h3>
-            <p className="text-fluid-base text-slatey-400">
+            <p className="text-fluid-base text-xslate-400">
               {item.description}
             </p>
           </li>

@@ -7,7 +7,7 @@ import config from './config'
 
 export const Footer = () => {
   return (
-    <footer className="col-[wide] grid grid-cols-subgrid bg-blue-950 text-slatey-400">
+    <footer className="row-6 z-10 col-[wide] grid grid-cols-subgrid text-xslate-400">
       <div className="col-[main] flex min-h-40 items-center justify-between gap-8 py-8">
         <Logo className="w-32" />
 
