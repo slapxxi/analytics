@@ -2,11 +2,11 @@ const config = {
   plans: [
     {
       name: 'Standard',
-      description: 'Up to 20 users',
+      description: 'Up to 3 users',
       price: (
         <div className="text-white font-bold">
           <span className="text-fluid-3xl">$</span>
-          <em className="text-fluid-6xl not-italic">99</em>
+          <em className="text-fluid-6xl not-italic">29</em>
           <br />
           <span className="text-xslate-400 text-sm">per month</span>
         </div>
@@ -26,11 +26,11 @@ const config = {
     },
     {
       name: 'Standard',
-      description: 'Up to 20 users',
+      description: 'Up to 200 users',
       price: (
         <div className="text-white font-bold">
           <span className="text-fluid-3xl">$</span>
-          <em className="text-fluid-6xl not-italic">99</em>
+          <em className="text-fluid-6xl not-italic">299</em>
           <br />
           <span className="text-xslate-400 text-sm">per month</span>
         </div>

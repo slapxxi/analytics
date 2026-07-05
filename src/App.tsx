@@ -1,4 +1,11 @@
-import { Features, Footer, Header, Hero, Pricing } from '~/components'
+import {
+  Features,
+  Footer,
+  Header,
+  Hero,
+  Pricing,
+  SellingPoints,
+} from '~/components'
 
 const App = () => {
   return (
@@ -6,6 +13,7 @@ const App = () => {
       <Header />
       <Hero />
       <Features />
+      <SellingPoints />
       <Pricing />
       <Footer />
     </div>
