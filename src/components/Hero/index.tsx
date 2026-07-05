@@ -10,13 +10,13 @@ export const Hero = () => {
 
       <div className="relative col-[wide] row-[1/3] grid grid-cols-subgrid grid-rows-subgrid text-base text-slatey-400">
         <div
-          className="col-[main] row-2 grid max-w-340 grid-rows-[min-content_min-content_120px] gap-6
-          md:col-[main/-1] md:grid-cols-[minmax(0,42fr)_minmax(0,58fr)] md:grid-rows-[auto_120px]"
+          className="col-[main] row-2 grid grid-rows-[min-content_min-content_120px] gap-6
+          md:col-[main/-1] md:grid-cols-[minmax(0,550px)_minmax(380px,1fr)] md:grid-rows-[auto_120px]"
         >
           <img
             src={heroImage}
             alt=""
-            className="col-2 row-span-2 hidden md:block"
+            className="col-2 row-span-2 -mb-4 hidden max-w-220  scale-105 drop-shadow-lg drop-shadow-black/20 filter md:block"
           />
 
           <img
